@@ -1,5 +1,6 @@
 html, body{
     margin: 0px;
+    font-family: 'Zen Dots', cursive;
 }
 .container-fluid{
     display: flex;
