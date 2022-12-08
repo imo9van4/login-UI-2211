@@ -21,3 +21,10 @@ html, body{
     border-radius: 12px;
     text-align: center;
 }
+.username, .password{
+    display: flex;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
