@@ -1,10 +1,22 @@
+html, body{
+    margin: 0px;
+}
 .container-fluid{
-    /*step 3: display flex in your parent element*/
     display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
 }
 .login-box{
-    /*step 4: center your box with flex properties
-    remember, this is a child element, so use the
-    right side of the flexbox cheat sheet for help*/
-    
+    display: flex;
+    border-style: solid;
+    border-color: blue;
+    border-width: 4px;
+    flex-direction: column;
+    min-width: 30%;
+    min-height: 20%;
+    background-color: beige;
+    border-radius: 12px;
+    text-align: center;
 }
